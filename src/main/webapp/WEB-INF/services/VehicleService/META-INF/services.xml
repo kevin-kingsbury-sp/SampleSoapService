@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceGroup>
+    <service name="VehicleService" targetNamespace="http://webservice.MavenAxis2WebService/">
+        <description>JNLPGenerator service</description>
+        <schema schemaNamespace="http://webservice.MavenAxis2WebService/" />
+        <parameter name="ServiceClass" locked="false">com.sample.soap.service.impl.VehicleServiceImpl</parameter>
+    </service>
+</serviceGroup>
